@@ -2,22 +2,111 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+<!-- FullScreen -->
+<div class="intro-header">
+  <div class="col-xs-12 text-center abcen1">
+    <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">10 year Anniversary!</h1>
+    <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">TNF / Needlworks</h3>
+    <!-- ul class="list-inline intro-social-buttons">
+      <li><a href="https://twitter.com/galantiandrea" class="btn btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
       </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+      <li id="download" ><a href="#downloadlink" class="btn btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
+      </li>
+    </ul -->
+  </div>    
+  <div class="col-xs-12 text-center abcen wow fadeIn">
+    <div class="button_down "> 
+      <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+    </div>
+  </div>
 </div>
+
+<!-- What is -->
+<div id="whatis" class="content-section-b" style="border-top: 0">
+  <div class="container">
+
+    <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+      <h2>What is?</h2>
+      <p class="lead" style="margin-top:0">A special thanks to Death.</p>
+      
+    </div>
+    
+    <div class="row">
+    
+      <div class="col-sm-4 wow fadeInDown text-center">
+        <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
+        <h3>Follow Me</h3>
+        <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+
+        <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-sm-4 wow fadeInDown text-center">
+        <img  class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
+         <h3>Gallery</h3>
+         <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+         <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-sm-4 wow fadeInDown text-center">
+        <img  class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
+         <h3>Retina</h3>
+        <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+        <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      
+    </div><!-- /.row -->
+      
+    <div class="row tworow">
+    
+      <div class="col-sm-4  wow fadeInDown text-center">
+        <img class="rotate" src="img/icon/laptop.svg" alt="Generic placeholder image">
+        <h3>Responsive</h3>
+        <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+       <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-sm-4 wow fadeInDown text-center">
+        <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
+         <h3>Google</h3>
+         <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+         <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-sm-4 wow fadeInDown text-center">
+        <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
+         <h3>Bootstrap</h3>
+       <p class="lead">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. </p>
+        <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+      </div><!-- /.col-lg-4 -->
+      
+    </div><!-- /.row -->
+  </div><!-- /container -->
+</div><!-- /whatis -->
+
+<div class="content-section-a">
+  <div class="container">
+    <div class="row">
+
+      <div class="home">
+
+        <h1 class="page-heading">Posts</h1>
+
+        <ul class="post-list">
+          {% for post in site.posts %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+              <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h2>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div><!-- /home -->
+
+    </div><!-- /row -->
+  </div><!-- /container -->
+</div><!-- /content-section-a -->
