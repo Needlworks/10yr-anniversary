@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: TNF
+permalink: /tnf/
 ---
 
 TNF에 대하여
