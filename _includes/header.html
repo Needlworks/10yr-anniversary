@@ -16,8 +16,13 @@
       <ul class="nav navbar-nav">
         <li class="menuItem"><a href="#stats">Statistics</a></li>
         <!-- TODO: links to additional content sections -->
-        <li class="menuItem"><a href="#contact">Contact</a></li>
+        {% for page in site.pages %}
+        {% if page.title %}
+        <li class="menuItem"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        <li class="menuItem"><a href="http://www.needlworks.org">Needlworks</a></li>
       </ul>
     </div>
   </div>
-</nav> 
+</nav>
