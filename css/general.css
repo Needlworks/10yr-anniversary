@@ -198,17 +198,13 @@ background: #1abc9c !important;
 }
 
 /* Nav */
-.navbar {
-	min-height: 60px;
-	margin-bottom: 0;
+.navbar-default {
+	height: 60px;
 	width: 100%;
 	z-index: 999;
-	border-radius: 0;
+	border-radius: 0px !important;
 }
-
-.navbar-default {
-	min-height: 60px;
-	width: 100%;
+.navbar-collapse {
 	z-index: 999;
 }
 
@@ -231,6 +227,10 @@ color: #ECEBEB;
 	font-family: arvo;
 	letter-spacing: 3px;
 	font-weight: 400 !important;
+}
+
+.navbar-nav {
+	background: #f2f2f2;
 }
 
 .lead {
