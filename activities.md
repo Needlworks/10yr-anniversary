@@ -2,6 +2,7 @@
 layout: page
 title: 활동
 permalink: /activities/
+id: activities
 ---
 
 활동

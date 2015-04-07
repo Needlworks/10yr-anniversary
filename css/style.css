@@ -257,26 +257,24 @@ h6 {
 }
 h1,
 .h1 {
-  font-size: 80px;
+  font-size: 240%;
 }
 h2,
 .h2 {
-  font-size: 63px;
+  font-size: 200%;
 }
 h3,
 .h3 {
-  font-size: 30px;
+  font-size: 150%;
 }
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 120%;
 }
 p {
-  font-size: 16px;
   line-height: 1.72222;
   margin: 0 0 15px;
 }
-li{list-style-type:none}
 .white {color:white}
 .hidden { visibility: hidden;}
 .lead {

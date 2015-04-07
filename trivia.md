@@ -2,6 +2,7 @@
 layout: page
 title: trivia
 permalink: /trivia/
+id: trivia
 ---
 
 트리비아

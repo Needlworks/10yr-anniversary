@@ -2,6 +2,7 @@
 layout: page
 title: 역사
 permalink: /history/
+id: history
 ---
 
 TNF 의 역사
