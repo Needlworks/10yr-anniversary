@@ -175,18 +175,8 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #34495e;
-  text-decoration: none;
   -webkit-transition: 0.25s;
   transition: 0.25s;
-}
-a:hover,
-a:focus {
-  color: #34495e;
-  text-decoration: none;
-}
-a:focus {
-  outline: none;
 }
 .img-rounded {
   border-radius: 6px;
@@ -257,15 +247,15 @@ h6 {
 }
 h1,
 .h1 {
-  font-size: 240%;
+  font-size: 200%;
 }
 h2,
 .h2 {
-  font-size: 200%;
+  font-size: 160%;
 }
 h3,
 .h3 {
-  font-size: 150%;
+  font-size: 140%;
 }
 h4,
 .h4 {

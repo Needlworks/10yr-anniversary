@@ -28,3 +28,7 @@ $on-laptop:        800px;
 }
 
 @import "bootstrap", "layout", "syntax-highlighting";
+
+.post-content h1 { font-size: 160%; }
+.post-content h2 { font-size: 140%; }
+.post-content h3 { font-size: 120%; }
