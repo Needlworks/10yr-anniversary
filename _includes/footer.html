@@ -5,11 +5,11 @@
       <div class="col-md-7">
         <h3 class="footer-title">TNF / Needlworks Anniversary Page</h3>
         <p>{{site.description}}</p>
-  
+
         <!-- LICENSE -->
         <a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy" property="dc:title">Flatfy Theme </a> by
         <a rel="dc:creator" href="http://www.andreagalanti.it" property="cc:attributionName">Andrea Galanti</a>
-        is licensed to the public under 
+        is licensed to the public under
         <br>the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
 
       </div><!-- /col-md-7 -->
@@ -25,30 +25,32 @@
       </div><!-- /col-md-5 -->
     </div><!-- /row -->
   </div>
-
-  <!-- JavaScript -->
-  <script src="{{ site.baseurl }}/js/jquery-1.10.2.js"></script>
-  <script src="{{ site.baseurl }}/js/bootstrap.js"></script>
-  <script src="{{ site.baseurl }}/js/owl.carousel.js"></script>
-  <script src="{{ site.baseurl }}/js/script.js"></script>
-  <!-- StikyMenu -->
-  <script src="{{ site.baseurl }}/js/stickUp.min.js"></script>
-  <script type="text/javascript">
-    jQuery(function($) {
-      $(document).ready( function() {
-        $('.navbar-default').stickUp();
-      });
-    });
-  </script>
-  <!-- Smoothscroll -->
-  <script src="{{ site.baseurl }}/js/jquery.corner.js"></script> 
-  <script src="{{ site.baseurl }}/js/wow.min.js"></script>
-  <script type="text/javascript">
-   new WOW().init();
-  </script>
-  <script src="{{ site.baseurl }}/js/classie.js"></script>
-  <script src="{{ site.baseurl }}/js/uiMorphingButton_inflow.js"></script>
-  <!-- Magnific Popup core JS file -->
-  <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script> 
-
 </footer>
+
+<!-- JavaScript dependencies -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/bootstrap.js"></script>
+<script src="{{ site.baseurl }}/js/owl.carousel.js"></script>
+<!-- General site-specific scripts. -->
+<script src="{{ site.baseurl }}/js/script.js"></script>
+<!-- StikyMenu -->
+<script src="{{ site.baseurl }}/js/jquery.sticky.js"></script>
+<script type="text/javascript">
+  (function($) {
+    $(document).ready(function() {
+      $('.navbar-default').sticky();
+    });
+  })(jQuery);
+</script>
+<!-- Smoothscroll -->
+<script src="{{ site.baseurl }}/js/jquery.corner.js"></script>
+<script src="{{ site.baseurl }}/js/wow.min.js"></script>
+<script type="text/javascript">
+  new WOW().init();
+</script>
+<script src="{{ site.baseurl }}/js/classie.js"></script>
+<script src="{{ site.baseurl }}/js/uiMorphingButton_inflow.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+
