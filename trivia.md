@@ -4,6 +4,7 @@ title: 트리비아
 permalink: /trivia/
 id: trivia
 ---
+아래 내용은 계속 업데이트 됩니다. 트위터 @textcube 로 제보해주시면 사실 확인 후 추가해 드립니다.
 
  1. TNF/Needlworks는 프로젝트 이름을 영문자 하나+숫자 하나 (주로 2) 로 짓는 습성이 있습니다. 첫번째 버전인 경우에도 2를 붙이는데, 2를 붙이면 어쩐지 차세대같은 느낌이 들기 때문입니다.
  1. [텍스트큐브](http://www.textcube.org) 의 프로젝트 이름은 S2입니다.
@@ -48,5 +49,11 @@ id: trivia
  1. 텍스트큐브 개발은 2010년을 전후로 삼 년 반 정도 정체기에 접어들었는데, 이 시기는 모든 니들웍스 소프트웨어 크리에이터 구성원들의 생업 종사 기간이 겹치는 기간입니다.
     1. daybreaker 님의 진학, gofeel님의 입사, inureyes님의 해외 연구원 생활 및 졸업, coolengineer님의 창업, egoing님, leezche님, graphittie 님의 [생활코딩](http://opentutiorials.org) 활동이 이에 해당됩니다.
  1. Needlworks는 텍스트큐브로 먹고 사려는 생각을 가급적이면 하지 않는데, 취미가 일이 되는 순간 끝이 존재하는 일이 되는 경우가 많기 때문입니다.
- 1. 그럼에도 불구하고 Needlworks 오프라인 모임이 열리면 빠지지 않는 주제는 '용돈 벌이'입니다. (정작 벌어보진 못하고 있습니다)
- 1. 
+    1. 그럼에도 불구하고 Needlworks 오프라인 모임이 열리면 빠지지 않는 주제는 '용돈 벌이'입니다. (정작 벌어보진 못하고 있습니다)
+ 1. TNF/Needlworks 사람들은 이름이 참 중요하다고 생각하는 문화가 자연스레 생겨서, 이름에 고민하는 시간을 많이 씁니다.
+ 1. 초기 텍스트큐브 메인 페이지는 python 및 django를 이용해서 [아침놀](http://daybreaker.info)님께서 제작하셨습니다. 개발진들이 PHP를 많이 다루는 관계로 python 사이트의 메인테넌스의 문제가 생겨, 아침놀님이 영국에 가 계시는 동안 텍스트큐브를 이용해서 사이트를 개편한 것이 현재의 사이트입니다.
+    1. 조만간 다시 django로 작성될 것 같긴 합니다. 개발진들이 이젠 대부분 python 및 node.js 유저가 되었기 때문입니다.
+ 1. 텍스트큐브 2.0은 개발 초기부터 [inureyes](http://forest.nubimaru.com)님께서 python으로 작성한 버전이 존재합니다만, TextcubePy는 설치 용이성 문제 및 프리젠테이션 레이어 (스킨 해석기 및 블로그 출력부) 가 없는 관계로 공개가 되지 않았습니다.
+ 1. NAF (Needlworks Application Framework) 라는 PHP 개발 프레임웍이 존재합니다. 2007년 WebAppsCon때 존재 및 오픈 예정이 공개 되었지만 실제로 공개되기 전에 NAF는 발전형인 codeball framework 으로 대체되었습니다.
+ 1. codeball framework으로 작성된 앱은 세 가지가 있는데, 웹페이지 생성기인 staticpage, 쉘인 nwsh 및 안티스팸 서비스인 FAS 입니다. [FAS 안내 페이지](http://antispam.textcube.org) 가 staticpage를 사용해 만들어졌습니다. FAS 자체도 codeball framework을 이용해 만들어 졌습니다.
+    1. 텍스트큐브 2.0 코드에 codeball framework의 일부가 포함되어 있습니다.
