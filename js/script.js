@@ -68,15 +68,15 @@ $(document).ready(function() {
     $(window).load(function () {
       var panels = $('.intro-header .intro-image');
       var num_images = panels.length;
-      var current = 1;
+      var current = 0;
       function nextBackground() {
+        var next = (current + 1) % num_images;
         panels.eq(current).removeClass('active');
-        var next = ((current + 1) % num_images) + 1;
         panels.eq(next).addClass('active');
         current = next;
       }
       nextBackground();
-      setInterval(nextBackground, 5000);
+      setInterval(nextBackground, 1000);
     });
 });
 
