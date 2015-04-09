@@ -7,73 +7,77 @@ http://www.andreagalanti.it
 */
 
 $(window).load(function() {
-	//Preloader
-	$('#status').delay(300).fadeOut();
-	$('#preloader').delay(300).fadeOut('slow');
-	$('body').delay(550).css({'overflow':'visible'});
+  //Preloader
+  $('#status').delay(300).fadeOut();
+  $('#preloader').delay(300).fadeOut('slow');
+  $('body').delay(550).css({'overflow':'visible'});
 })
 
 $(document).ready(function() {
-		//animated logo
-		$(".navbar-brand").hover(function () {
-			$(this).toggleClass("animated shake");
-		});
+    //animated logo
+    $(".navbar-brand").hover(function () {
+      $(this).toggleClass("animated shake");
+    });
 
-		//animated scroll_arrow
-		$(".img_scroll").hover(function () {
-			$(this).toggleClass("animated infinite bounce");
-		});
+    //animated scroll_arrow
+    $(".img_scroll").hover(function () {
+      $(this).toggleClass("animated infinite bounce");
+    });
 
-		//Wow Animation DISABLE FOR ANIMATION MOBILE/TABLET
-		wow = new WOW(
-		{
-			mobile: false
-		});
-		wow.init();
+    //Wow Animation DISABLE FOR ANIMATION MOBILE/TABLET
+    wow = new WOW(
+    {
+      mobile: false
+    });
+    wow.init();
 
-		//MagnificPopup
-		$('.image-link').magnificPopup({type:'image'});
+    //MagnificPopup
+    $('.image-link').magnificPopup({type:'image'});
 
+    // OwlCarousel N1
+    $("#owl-demo").owlCarousel({
+      autoPlay: 3000,
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+    });
 
-		// OwlCarousel N1
-		$("#owl-demo").owlCarousel({
-			autoPlay: 3000,
-			items : 3,
-			itemsDesktop : [1199,3],
-			itemsDesktopSmall : [979,3]
-		});
+    // OwlCarousel N2
+    $("#owl-demo-1").owlCarousel({
+        navigation : false, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+    });
 
-		// OwlCarousel N2
-		$("#owl-demo-1").owlCarousel({
-			  navigation : false, // Show next and prev buttons
-			  slideSpeed : 300,
-			  paginationSpeed : 400,
-			  singleItem:true
-		});
+    // SmothScroll
+    $('a[href*=#]').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+      && location.hostname == this.hostname) {
+          var $target = $(this.hash);
+          $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+          if ($target.length) {
+              var targetOffset = $target.offset().top;
+              $('html,body').animate({scrollTop: targetOffset}, 600);
+              return false;
+          }
+      }
+    });
 
-		//SmothScroll
-		$('a[href*=#]').click(function() {
-			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-			&& location.hostname == this.hostname) {
-					var $target = $(this.hash);
-					$target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-					if ($target.length) {
-							var targetOffset = $target.offset().top;
-							$('html,body').animate({scrollTop: targetOffset}, 600);
-							return false;
-					}
-			}
-		});
-
-		// Background rotation
-		$(window).load(function () {
-			var panel = $('.intro-header');
-			var current = 1;
-			function nextBackground() {
-				panel.css(
-                'background-image',
-                "url('img/intro/intro"+(current = ++current % 10)+".jpg')");
-			}
-			setInterval(nextBackground, 5000);
-		});
+    // Background rotation
+    $(window).load(function () {
+      var panels = $('.intro-header .intro-image');
+      var num_images = panels.length;
+      var current = 1;
+      function nextBackground() {
+        panels.eq(current).removeClass('active');
+        var next = ((current + 1) % num_images) + 1;
+        panels.eq(next).addClass('active');
+        current = next;
+      }
+      nextBackground();
+      setInterval(nextBackground, 5000);
+    });
 });
+
+/* vim: set ts=8 sts=2 sw=2 et: */
