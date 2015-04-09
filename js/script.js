@@ -76,7 +76,7 @@ $(document).ready(function() {
         current = next;
       }
       nextBackground();
-      setInterval(nextBackground, 1000);
+      setInterval(nextBackground, 5000);
     });
 });
 
