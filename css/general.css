@@ -248,13 +248,14 @@ color: #ECEBEB;
 }
 .intro-header .abcen1, .intro-header .abcen {
 	position: absolute;
-	top: 40%;
-	width: 100%;
+	top: 30%;
+	margin: 0 auto;
 	text-align: center;
 	z-index: 10;
 }
 .intro-header .abcen {
-	top: 92%;
+	top: auto;
+	bottom: 50px;
 }
 .intro-header .intro-image {
 	position: absolute;
