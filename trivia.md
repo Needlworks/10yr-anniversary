@@ -19,7 +19,7 @@ id: trivia
     1. 텍스트큐브의 이름 후보로 제안된 이름들은 spinner, sillog, planpl, humancontainer, thinktalker, paperweb, texter, hyperblog, thinkmaster, thincomposer, fractal, textable, zweistein, monoworks, mindscrib, mindpager, raspberry, petrowriter, sproutos, typeup, wetails 가 있었습니다.
     1. J.Parker님께서 공유하신 텍스트큐브의 초기 로고 아이디어는 [이랬습니다](http://create74.com/temp/textcube.swf)
     1. [lifthrasiir](http://j.mearie.org) 님께서는 텍스트큐브 작명 과정 중 '텍스트큐브'가 '택스트큐브'로 오타가 날 가능성에 미리 대비한 이름인 taextcube 를 제안하셨습니다.
- 1. TNF를 주제로 한 논문이 있습니다.
+ 1. TNF를 주제로 한 연구가 있습니다.
  1. Needlworks가 개발할 때 가장 애를 먹는 단계는 테스트용 윈도우 환경을 구하는 일입니다. Needlworks의 [daybreaker](http://daybreaker.info)님을 제외한 모든 소프트웨어 크리에이터가 맥 또는 리눅스를 쓰기 때문입니다. (게다가 이 분께서도 항상 최신 윈도우만 쓰셔서...)
  1. 태터툴즈에 관계된 용어들은 대부분 뜨개질에서 유래했습니다. Needlworks 라는 작명도 Needleworks 와 발음이 같습니다.
  1. 텍스트큐브의 판번호에 붙는 판이름은 악상 기호에서 따 옵니다. 메일링리스트를 통해 주로 결정됩니다.
