@@ -68,7 +68,7 @@ $(document).ready(function() {
     $(window).load(function () {
       var panels = $('.intro-header .intro-image');
       var num_images = panels.length;
-      var current = 0;
+      var current = -1;
       function nextBackground() {
         var next = (current + 1) % num_images;
         panels.eq(current).removeClass('active');
