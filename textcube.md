@@ -7,7 +7,7 @@ permalink: /textcube/
 텍스트큐브
 ======
 
-"Omnis mundi creatura quasi liber et pictura nobis est님, et speculum"
+"Omnis mundi creatura quasi liber et pictura nobis est, et speculum"
 
 공헌자 목록
 ---------
@@ -53,6 +53,6 @@ adeurian님, chester님, DARKLiCH님, FeelSoGood님, glradios님, laotzu님, McF
 
 #### 서포터
 
-노정석님 (활동 지원), 윤석찬님(서버 및 활동 지원), 이미나님(태터캠프 및 홍보 지원), 권순선님(행사 지원), 김국현님 (태터캠프 지원)
+노정석님 (활동 지원), 윤석찬님(서버 및 활동 지원), 이미나님(태터캠프 및 홍보 지원), 권순선님(행사 지원), 김영욱님 (태터캠프 지원), 소금이님 (findingNemo 프로젝트)
 
 그리고 당신!
