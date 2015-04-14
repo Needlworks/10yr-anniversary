@@ -60,3 +60,4 @@ id: trivia
  1. NAF (Needlworks Application Framework) 라는 PHP 개발 프레임웍이 존재합니다. 2007년 WebAppsCon때 존재 및 오픈 예정이 공개 되었지만 실제로 공개되기 전에 NAF는 발전형인 codeball framework 으로 대체되었습니다.
  1. codeball framework으로 작성된 앱은 세 가지가 있는데, 웹페이지 생성기인 staticpage, 쉘인 nwsh 및 안티스팸 서비스인 FAS 입니다. [FAS 안내 페이지](http://antispam.textcube.org) 가 staticpage를 사용해 만들어졌습니다. FAS 자체도 codeball framework을 이용해 만들어 졌습니다.
     1. 텍스트큐브 2.0 코드에 codeball framework의 일부가 포함되어 있습니다.
+ 1. 당일 새벽에 McFuture님이 지적할 때 까지 아무도 TNF 10년과 10주년의 차이를 알지 못했습니다.
